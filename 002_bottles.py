@@ -23,6 +23,3 @@ def bottles(value):
             print(str(number) + ' bottles of beer on the wall, ' + str(number) + ' bottles of beer! If one of these bottles should happen to fall, there\'d be ' + str(number) + ' bottles of beer on the wall!')
 
 bottles(99)
-
-
-print(f'{i} bottles of beer on the wall, {i} bottles of beer\nTake one down and pass it around, {i-1} bottle{"s" if i>2 else ""} of beer on the wall.\n')
